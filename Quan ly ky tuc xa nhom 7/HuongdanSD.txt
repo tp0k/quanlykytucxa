@@ -1,0 +1,12 @@
+Mấy đứa cài sql nhé ... ^^
+Bước 1: Chạy file sql.
+Bước 2: sửa chuỗi kết nối:
+- mở file Quanlykytucxadetai.sln
+- mở class Connect và sửa chuỗi "Data Source=..........;Initial Catalog=QuanLyKyTucXasql;Integrated Security=True" bằng
+cách thay ......... = <tên server trong sql của máy mấy em là được>.
+Bước 3:Ấn start trong visual studio để chạy thôi (F5).
+
+Uhmm đoạn này quan trọng mấy em chạy tạo bảng theo thứ tự: 
++)Chạy câu lệnh tạo table theo thứ tự taikhoan -> KHoa -> Lop -> loai phong -> phong -> Sinh vien -> Hoa don 
++) Tài khoản : Admin
+   Mật khẩu : admin
